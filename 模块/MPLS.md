@@ -6,7 +6,7 @@
 
 3. IP报文进入MPLS网络时，MPLS入口的LER分析IP报文的内容并且为这些IP报文添加合适的标签，所有MPLS网络中的LSR根据标签转发数据，当该IP报文离开MPLS网络时，标签由出口LER弹出。
 
-![image](./pictures/image-20191210102918699.png)
+![image](../pictures/image-20191210102918699.png)
 
 #### 控制平面：负责产生和维护路由信息以及标签信息。
 
@@ -23,7 +23,7 @@
 
 与普通的IP报文相比增加了MPLS标签信息，MPLS的标签长度为4B，MPLS标签封装在**链路层**和**网络层**之间。
 
-![image](./pictures/mpls.png)
+![image](../pictures/mpls.png)
 
 标签共有4个字段：
 
